@@ -15,3 +15,11 @@ class MainViewController: UIViewController {
         self.prepare(for: SwipeDirection.left)
     }
 }
+extension MainViewController: SwipeRecognizable, EdgeRecognizable {
+    func edgeGesture(sender: UIScreenEdgePanGestureRecognizer) {
+        print(sender.edges)
+    }
+    func swipeGesture(sender: UISwipeGestureRecognizer) {
+        print(sender.direction)
+    }
+}

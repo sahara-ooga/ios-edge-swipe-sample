@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFAF1EDF2130F0250031F323 /* EdgeRecognizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF1EDE2130F0250031F323 /* EdgeRecognizable.swift */; };
 		DFE1D8D12127A4B50057AB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1D8D02127A4B50057AB98 /* AppDelegate.swift */; };
 		DFE1D8D32127A4B50057AB98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1D8D22127A4B50057AB98 /* MainViewController.swift */; };
 		DFE1D8D62127A4B50057AB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE1D8D42127A4B50057AB98 /* Main.storyboard */; };
 		DFE1D8D82127A4B80057AB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE1D8D72127A4B80057AB98 /* Assets.xcassets */; };
 		DFE1D8DB2127A4B80057AB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE1D8D92127A4B80057AB98 /* LaunchScreen.storyboard */; };
 		DFE1D8E62127A4B80057AB98 /* slide_in_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1D8E52127A4B80057AB98 /* slide_in_sampleTests.swift */; };
-		DFE1D8F1212972E40057AB98 /* UIViewController+Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1D8F0212972E40057AB98 /* UIViewController+Swipe.swift */; };
+		DFE1D8F1212972E40057AB98 /* SwipeRecognizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1D8F0212972E40057AB98 /* SwipeRecognizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFAF1EDE2130F0250031F323 /* EdgeRecognizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeRecognizable.swift; sourceTree = "<group>"; };
 		DFE1D8CD2127A4B50057AB98 /* slide-in-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slide-in-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1D8D02127A4B50057AB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFE1D8D22127A4B50057AB98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		DFE1D8E12127A4B80057AB98 /* slide-in-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slide-in-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1D8E52127A4B80057AB98 /* slide_in_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slide_in_sampleTests.swift; sourceTree = "<group>"; };
 		DFE1D8E72127A4B80057AB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFE1D8F0212972E40057AB98 /* UIViewController+Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swipe.swift"; sourceTree = "<group>"; };
+		DFE1D8F0212972E40057AB98 /* SwipeRecognizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeRecognizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,8 @@
 			children = (
 				DFE1D8D02127A4B50057AB98 /* AppDelegate.swift */,
 				DFE1D8D22127A4B50057AB98 /* MainViewController.swift */,
-				DFE1D8F0212972E40057AB98 /* UIViewController+Swipe.swift */,
+				DFE1D8F0212972E40057AB98 /* SwipeRecognizable.swift */,
+				DFAF1EDE2130F0250031F323 /* EdgeRecognizable.swift */,
 				DFE1D8D42127A4B50057AB98 /* Main.storyboard */,
 				DFE1D8D72127A4B80057AB98 /* Assets.xcassets */,
 				DFE1D8D92127A4B80057AB98 /* LaunchScreen.storyboard */,
@@ -200,9 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE1D8F1212972E40057AB98 /* UIViewController+Swipe.swift in Sources */,
+				DFE1D8F1212972E40057AB98 /* SwipeRecognizable.swift in Sources */,
 				DFE1D8D32127A4B50057AB98 /* MainViewController.swift in Sources */,
 				DFE1D8D12127A4B50057AB98 /* AppDelegate.swift in Sources */,
+				DFAF1EDF2130F0250031F323 /* EdgeRecognizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
